@@ -86,7 +86,3 @@ After training, the model’s accuracy can be evaluated using the test dataset. 
 ## Contributing
 
 Contributions are welcome! If you’d like to contribute to this project, please fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
