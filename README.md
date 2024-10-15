@@ -40,12 +40,12 @@ python -m venv venv
 
 3.	**Activate the virtual environment:**
 	
-  •	**Windows:**
+- **Windows:**
 ```bash
 .\venv\Scripts\activate
 ```
 
-  •	**Mac/Linux:**
+- **Mac/Linux:**
 ```bash
 source venv/bin/activate
 ```
@@ -73,9 +73,9 @@ source venv/bin/activate
 
 The model is defined in the train.py file. It consists of:
 
-  •	A flatten layer that converts each 28x28 pixel image into a one-dimensional array.
-	•	A dense layer with 128 neurons using the ReLU activation function.
-	•	An output layer with 10 neurons corresponding to the clothing categories.
+- A flatten layer that converts each 28x28 pixel image into a one-dimensional array.
+- A dense layer with 128 neurons using the ReLU activation function.
+- An output layer with 10 neurons corresponding to the clothing categories.
 
 The model is compiled using the sparse categorical cross-entropy loss function and the Adam optimizer.
 
